@@ -48,9 +48,12 @@ CodeAlchemy is an advanced AI-powered platform designed for seamless **code tran
    npm install
    ```
 
-3. Create a `.env` file and add your **Gemini API Key**:
-   ```env
-   VITE_GEMINI_API_KEY=your_api_key_here
+3. Replace the text in `firebase.js` and `gemini.js` files with your **Firebase API Key** **Gemini API Key**:
+   ```firebase.js
+   apiKey: "Paste your Firebase API KEY "
+   ```
+      ```gemini.js
+   const API_KEY = "Paste Your Gemini-AI API KEY";
    ```
 
 4. Start the development server:
