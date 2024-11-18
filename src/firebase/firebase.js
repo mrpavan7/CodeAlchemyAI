@@ -2,23 +2,23 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
-import { getFirestore } from 'firebase/firestore';
-import { getStorage } from 'firebase/storage';
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
 import firebase from "firebase/compat/app";
-import 'firebase/auth';
+import "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyA0szQSVHzXNd_xSRQl4y7hFarUKtB3EXU",
-    authDomain: "codealchemy-ai.firebaseapp.com",
-    projectId: "codealchemy-ai",
-    storageBucket: "codealchemy-ai.appspot.com",
-    messagingSenderId: "645119684006",
-    appId: "1:645119684006:web:9c15a70be43c0211927367",
-    measurementId: "G-VVHJCKL8FD"
+  apiKey: "Paste your Firebase API KEY ",
+  authDomain: "codealchemy-ai.firebaseapp.com",
+  projectId: "codealchemy-ai",
+  storageBucket: "codealchemy-ai.appspot.com",
+  messagingSenderId: "645119684006",
+  appId: "1:645119684006:web:9c15a70be43c0211927367",
+  measurementId: "G-VVHJCKL8FD",
 };
 
 // Initialize Firebase
